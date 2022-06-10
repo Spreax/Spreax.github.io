@@ -2,7 +2,7 @@ h1 {
     font-family: fantasy;
     font-size: 85px;
     text-align: center;
-    animation: Colorwheel 8s infinite; 
+    animation: Credit 5s infinite; 
     border: 5px solid rgb(0, 68, 255);
     background-color: black;
     width: 800px;
@@ -15,7 +15,7 @@ h2 {
     font-family: monospace ;
     font-size: 60px;
     text-align: center;
-    animation: Colorwheel 8s infinite; 
+    animation: Colorwheel 5s infinite; 
     border: 5px solid rgb(0, 68, 255);
     background-color: black;
     width: 800px;
@@ -78,6 +78,12 @@ img{
     margin-right: auto;
 }
 
+table{
+    border: 10px solid rgb(0, 255, 21);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
  *{
     margin: 0;
@@ -86,11 +92,11 @@ img{
 
 
 @keyframes Colorwheel {
-    0%{color:rgb(4, 0, 255);}
-    25%{color:rgb(27, 24, 24);}
-    50%{color:rgb(4, 0, 255);}
-    75%{color:rgb(27, 24, 24);}
-    100%{color:rgb(4, 0, 255);}
+    0%{color:rgb(4, 0, 255);  }
+    25%{color:rgb(27, 24, 24); }
+    50%{color:rgb(4, 0, 255); }
+    75%{color:rgb(27, 24, 24); }
+    100%{color:rgb(4, 0, 255);}  
 
 }
 
