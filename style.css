@@ -1,0 +1,111 @@
+h1 {
+    font-family: fantasy;
+    font-size: 85px;
+    text-align: center;
+    animation: Colorwheel 8s infinite; 
+    border: 5px solid rgb(0, 68, 255);
+    background-color: black;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+h2 {
+    font-family: monospace ;
+    font-size: 60px;
+    text-align: center;
+    animation: Colorwheel 8s infinite; 
+    border: 5px solid rgb(0, 68, 255);
+    background-color: black;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 40x;
+    color: cyan;
+    text-align: center; 
+    border: 5px solid rgb(0, 225, 255);
+    background-color: black;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h4 {
+    font-family: monospace ;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+    background-color: black;
+    border: 5px solid rgb(255, 0, 0);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    font-family: monospace;
+    font-size: 40x;
+    color: rgb(255, 0, 0);
+    text-align: center; 
+    border: 5px solid rgb(255, 0, 0);
+    background-color: black;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+    font-family: fantasy;
+    font-size: 20px;
+    animation: Credit 5s infinite;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+img{
+    display: block;
+    width: 450px;
+    border: 5px solid rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes Colorwheel {
+    0%{color:rgb(4, 0, 255);}
+    25%{color:rgb(27, 24, 24);}
+    50%{color:rgb(4, 0, 255);}
+    75%{color:rgb(27, 24, 24);}
+    100%{color:rgb(4, 0, 255);}
+
+}
+
+@keyframes Credit {
+    0%{color:rgb(0, 225, 255);}
+    25%{color:rgb(4, 0, 255);}
+    50%{color:rgb(0, 225, 255);}
+    75%{color:rgb(4, 0, 255);}
+    100%{color:rgb(0, 225, 255);}
+
+}
+
+
+
+
+
+  
+  
