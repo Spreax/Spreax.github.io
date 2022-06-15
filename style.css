@@ -101,6 +101,10 @@ iframe {
     padding: 0;
 }
 
+th {
+    color: rgb(0, 255, 21);
+}
+
 
 @keyframes Colorwheel {
     0%{color:rgb(4, 0, 255);  }
